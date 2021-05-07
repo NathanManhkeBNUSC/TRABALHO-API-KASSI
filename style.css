@@ -1,0 +1,94 @@
+body {
+    height: 100VH;
+    background: linear-gradient(45deg, #3b485c, #677b9c, #ffc996, #ff8474);
+    animation: Degrade 10s ease infinite;
+    background-size: 400%;
+}
+
+@keyframes Degrade {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.Organize-Input {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+#Input-Search {
+    outline: none;
+    width: 600px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.Cidade-Estilo {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.Sensacao {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.Organize-info {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.Temperatura {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.Condicao {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#botao {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.Info {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Centraliza {
+    display: flex;
+    justify-content: center;
+}
+
+.Date {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
